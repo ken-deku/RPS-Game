@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/RPS-Game/rps.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <main class="game">
+      <h1 class="game-title">Rock - Paper - Scissors</h1>
+
+      <!-- Move selection -->
+      <div class="controls" role="group" aria-label="Choose your move">
+        <button id="rockBtn" aria-label="Choose Rock">
+          <img
+            class="move-img"
+            src="/RPS-Game/images/rock-emoji.png"
+            alt=""
+            aria-hidden="true"
+          />
+        </button>
+
+        <button id="paperBtn" aria-label="Choose Paper">
+          <img
+            class="move-img"
+            src="/RPS-Game/images/paper-emoji.png"
+            alt=""
+            aria-hidden="true"
+          />
+        </button>
+
+        <button id="scissorsBtn" aria-label="Choose Scissors">
+          <img
+            class="move-img"
+            src="/RPS-Game/images/scissors-emoji.png"
+            alt=""
+            aria-hidden="true"
+          />
+        </button>
+      </div>
+
+      <p class="results" aria-live="polite" aria-atomic="true"></p>
+      <p class="choices" aria-live="polite"></p>
+      <p class="js-score"></p>
+
+      <!-- Controls -->
+      <div class="controls">
+        <button class="reset-btns">Reset Score</button>
+        <button class="auto-play">Auto Play</button>
+      </div>
+    </main>
+
+    <script src="/RPS-Game/rps.js"></script>
+  </body>
+</html>

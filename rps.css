@@ -4,7 +4,7 @@
   --bg-card: rgba(255, 255, 255, 0.219);
   --border-soft: rgba(66, 18, 18, 0.288);
 
-  --win: #88f59a;
+  --win: #96eba4;
   --lose: #fa4747;
   --tie: #adb5bd;
 
@@ -181,6 +181,6 @@ button:focus-visible {
   }
 
   .game-title {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 }

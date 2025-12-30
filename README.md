@@ -9,7 +9,7 @@ A simple browser-based Rock Paper Scissors game built with **HTML, CSS, and Java
 - Reset button to clear scores and history.
 
 ## How to Play
-1. Open `index.html` in your browser.
+1. Open `rps.html` in your browser.
 2. Click **Rock**, **Paper**, or **Scissors** to make your move.
 3. Watch the results and score update in real-time.
 4. Try **Auto-Play** to let the game run itself.

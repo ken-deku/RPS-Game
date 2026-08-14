@@ -17,6 +17,7 @@ A simple browser-based Rock Paper Scissors game built with **HTML, CSS, and Java
 ## Future Improvements
 - Add keyboard shortcuts for moves.
 - Add animations for moves.
+- More modern look.
 
 ---
 Made by Dek

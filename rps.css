@@ -188,24 +188,24 @@ button:focus-visible {
     font-size: 4rem;
   }
 
+  @media (max-width: 480px) {
+    .controls {
+      gap: 14px;
+    }
 
-@media (max-width: 480px) {
-  .controls {
-    gap: 14px;
-  }
+    #rockBtn,
+    #paperBtn,
+    #scissorsBtn {
+      width: 110px;
+      height: 110px;
+    }
 
-  #rockBtn,
-  #paperBtn,
-  #scissorsBtn {
-    width: 110px;
-    height: 110px;
-  }
+    .game {
+      padding: 28px 24px;
+    }
 
-  .game {
-    padding: 28px 24px;
-  }
-
-  .game-title {
-    font-size: 4rem;
+    .game-title {
+      font-size: 4rem;
+    }
   }
 }
